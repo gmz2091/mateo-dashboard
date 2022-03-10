@@ -1,6 +1,5 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/no-unresolved */
-import React from 'react';
 import { Navigate } from 'react-router-dom';
 import { PrivateRouteProps } from '../../interfaces/privateRoute.interface';
 

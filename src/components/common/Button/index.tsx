@@ -1,5 +1,4 @@
 /* eslint-disable import/no-unresolved */
-import React from 'react';
 import { Button as ButtonStyle } from './styled.button';
 import { ButtonProps } from '../../../interfaces/button.interface';
 

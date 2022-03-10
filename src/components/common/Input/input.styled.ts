@@ -5,17 +5,12 @@ import { myTheme } from '../../../theme';
 
 export const Input = styled.input`
     background-color: none;
+    width: 100%;
     border-radius: ${myTheme.borderRadius};
-    color: ${myTheme.colors.main};
-    font-size: 1.5rem;
     padding: 1rem 2rem;
     transition: all 0.2s ease-in-out;
     outline: none;
-    border: solid 1px ${myTheme.colors.primary};
-    &:hover {
-        background-color: ${myTheme.colors.secondary};
-        color: ${myTheme.colors.main};
-    }
+    border: solid 0.5px ${myTheme.colors.secondary};
 `;
 
 export const ContainerInput = styled.div`
@@ -25,7 +20,7 @@ export const ContainerInput = styled.div`
     justify-content: center;
     padding: 1rem;
     font-size: 1.5rem;
-    text-transform: uppercase;
+    width: 100%;
     transition: all 0.2s ease-in-out;
     outline: none;
     border: none;

@@ -6,8 +6,8 @@ const myTheme: ThemeInterface = {
 
   colors: {
     main: 'cyan',
-    primary: '#ff5722',
-    secondary: 'magenta',
+    primary: '#2c3e50',
+    secondary: '#7f8c8d',
   },
 };
 
